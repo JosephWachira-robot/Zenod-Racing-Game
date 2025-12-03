@@ -1,2 +1,27 @@
-# Zenod-Racing-Game
-Did you know you could play a simple 2D racing game in your linux terminal? Yeah you heard me right!!! Zenod Racing Game makes this possible... This was made possible after an inspiration of my previous failure in creating the Jimbo Crime City and Pigroma Hunt.... Every thing is possible in programming.
+# Zenod - Terminal Racing Game (Professional C++ OOP)
+
+Zenod is a terminal-based 2D racing game built in C++ using clean object-oriented programming principles. 
+This project demonstrates game logic, AI opponents, power-ups, save/load system, and modular OOP design.
+
+## Features
+- 5-lane racing track
+- Player and AI cars
+- Realistic km/h speed system
+- Fixed FPS game loop (10 updates/sec)
+- Collision detection
+- Nitro boost and power-ups
+- Save and load game state
+- Clean console UI
+
+## Build & Run
+```bash
+make
+./zenod
+```
+
+## Folder Structure
+- src/ : all C++ source and header files
+- assets/ : ASCII art and track files
+- Makefile : build instructions
+- README.md : project overview
+- LICENSE : MIT license
